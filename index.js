@@ -17,6 +17,10 @@ const comments = [
 
 // Some and Every Checks
 // Array.prototype.some() // is at least one person 19 or older?
+
+const someOlder = people.some(item => new Date().getFullYear() - item.year >= 19);
+console.log(someOlder);
+
 // Array.prototype.every() // is everyone 19 or older?
 
 // Array.prototype.find()
