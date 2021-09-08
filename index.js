@@ -35,4 +35,8 @@ console.log(comment);
 
 // Array.prototype.findIndex()
 // Find the comment with this ID
+
+const commentId = comments.findIndex(item => item.id === 823423);
+console.log(commentId);
+
 // delete the comment with the ID of 823423
